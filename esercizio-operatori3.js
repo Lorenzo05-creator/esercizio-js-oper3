@@ -1,6 +1,5 @@
-let number1 = prompt(`Dimmi un numero a tua scelta`);
-let number2 = prompt(`Dimmi un altro numero a tua scelta`);
-
+let number1 = parseInt(prompt(`Dimmi un numero a tua scelta`));
+let number2 = parseInt(prompt(`Dimmi un altro numero a tua scelta`));
 let somma = number1 + number2;
 let sottrazione = number1 - number2;
 let moltiplicazione = number1 * number2;
